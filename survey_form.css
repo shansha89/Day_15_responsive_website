@@ -1,0 +1,30 @@
+.survey-header {
+  background-color: rgb(240, 20, 104);
+}
+
+.survey-header p {
+  color: white;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(189, 152, 152);
+}
+
+.fa-star {
+  color: rgb(248, 219, 2);
+}
+
+label {
+  font-weight: bold;
+}
+
+sup {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.fs-os-1 {
+  font-size: 12px;
+}

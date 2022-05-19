@@ -1,0 +1,107 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+#home {
+  background-color: rgb(47, 45, 45);
+  display: table;
+  height: 100%;
+  width: 100%;
+  color: beige;
+  background-size: cover;
+}
+
+.landing-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.dark-btn {
+  background-color: rgb(220, 220, 220);
+  font-weight: bold;
+}
+
+.quotes {
+  background-color: rgb(43, 42, 42);
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.year {
+  font-size: 15px;
+  color: rgb(155, 149, 149);
+}
+
+.card-text {
+  color: rgb(57, 57, 57);
+  font-size: 13px;
+}
+
+.awards {
+  border-bottom: 2px solid rgb(237, 235, 235);
+  text-align: center;
+  width: 100%;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.awards span {
+  background: #fff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.poetry {
+  border-bottom: 2px solid rgb(228, 222, 222);
+  text-align: center;
+  width: 100%;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.poetry span {
+  background: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer {
+  background-color: rgb(36, 35, 35);
+  color: white;
+}
+
+.foot-fs1 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.foot-fs2 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.color-gray {
+  color: rgb(140, 139, 139);
+}
+
+.color-blue {
+  color: rgb(100, 100, 222);
+}
+
+.line {
+  position: relative;
+}
+.line:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  border-right: 2px solid #393939;
+  top: 20%;
+  bottom: 20%;
+}
